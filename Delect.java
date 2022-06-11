@@ -14,14 +14,21 @@ class Delete extends Menu{
         Font fo=new Font("Serief",Font.BOLD,12);
         jl.setFont(fo);
         jt.setBounds(15,15,150,30);
+                       //可以通过setBounds对组件进行自定义大小和位置设置。第一个参数改组件在JFrame中的x坐边
+                       //第二个参数改组件在JFrame中的y坐标
+                      //第三个参数改组件在JFrame中的组件宽度
+                      // 第四个参数改组件在JFrame中的组件高度
         jb.setBounds(175,15,60,30);
         jl.setBounds(10,80,80,30);
         jf.add(jt);
         jf.add(jb);
         jf.add(jl);
         jf.setSize(300,170);
+          //setSize(int width, int height)：其实就是定义控件的大小，有两个参数，分别对应宽度和高度
         jf.setLocation(300,250);
+          //setLocation(int x, int y)：将组件移到新位置，用x 和 y 参数来指定新位置的左上角
         jf.setVisible(true);
+          //setVisible(boolean)方法是用来显示GUI组件的。
         jb.addActionListener((ActionEvent e)->{
             if(e.getSource()==jb){
                 if("".equals(jt.getText().trim())){
@@ -57,4 +64,3 @@ class Delete extends Menu{
         });
     }
 }
-
