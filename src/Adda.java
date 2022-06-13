@@ -1,7 +1,9 @@
 import javax.swing.*;
-import java.awt.event.ActionnEvent;
+import java.awt.event.ActionEvent;
+
 /**
-*创建Adda类并且继承Menu类*/
+*创建Adda类并且继承Menu类
+ * @author Angel*/
 public class Adda extends Menu{				
     private final JFrame jf=new JFrame("添加学生信息！");		//定义一个窗体，窗体的名称为添加学生信息！
     //定义信息填写栏
