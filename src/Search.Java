@@ -6,7 +6,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 /**
 *Search类为Menu类的子类，用于查找学生信息
-*/
+ * @author Angel
+ */
 public class Search extends Menu{
     private final JFrame jf=new JFrame("查找学生信息！");   //创建标题为“查找学生信息！”的窗口，创建按钮和文本框
     private  final JButton jb=new JButton("查询");
