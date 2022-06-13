@@ -1,3 +1,6 @@
+/**
+*@autor Angel
+*/
 public class Dengru {
     private final JFrame frame = new JFrame("学生成绩管理系统");
     private final JButton submit = new JButton("登入");
